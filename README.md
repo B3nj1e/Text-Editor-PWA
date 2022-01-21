@@ -70,21 +70,21 @@ To quickly test the application, follow the installation instructions above and 
 
 Default appearance of application, notice the JATE header. 
 
-![default](./assets/images/picture1.png)
+![default](./assets/images/Picture1.png)
 
 
 Open the inspect function and navigate to the "Application" tab. The manifest should appear like this. 
 
-![manifest](./assets/images/picture2.png)
+![manifest](./assets/images/Picture2.png)
 
 The service worker should appear like this and be active.  
 
 
-![exmaple of database](./assets/images/picture3.png)
+![exmaple of database](./assets/images/Picture3.png)
 
 An example of text entered into the application, and it's appearance in the indexedDB. 
 
-![indexedDB](./assets/images/picture5.png)
+![indexedDB](./assets/images/Picture5.png)
 
 
 ## Questions
