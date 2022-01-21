@@ -25,9 +25,14 @@ warmStrategyCache({
   strategy: pageCache,
 });
 
-registerRoute(({ request }) => request.mode === 'navigate', pageCache);
+// registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
-
+if ('serviceWorker' in navigator) {
+  // Use the window load event to keep the page load performant
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js');
+  });
+}
 // self.addEventListener('install', function(event) {
 //   event.waitUntil(
 //     caches.open(cacheName).then(function(cache) {
