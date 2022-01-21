@@ -55,11 +55,12 @@ THEN I should have proper build scripts for a webpack application
 ```
 
 
+
 ## Installation Instructions
 To use the application, please download all associated files off the [GitHub repository](https://github.com/B3nj1e/Text-Editor-PWA). Ensure node.js is installed. In the terminal run ``npm i`` to install the dependencies and packages. Once you have install the packages, run ``npm run build`` to create the required files, followed by ``npm run start:dev`` if you want to open it in a development environment as navigate to localhost:8080 in your browser, otherwise run ``npm run start`` and navigate to localhost:3000 in your browser.  
 
 ## Usage Instructions
- 
+Designed to be used a simiple text editor, for tasks such as quickly writing code, or taking notes. 
 
 ## Contribution Guidelines
 If you think you can improve this application, please feel free to make contributions. I will review these changes on GitHub prior to merging them to the main branch.
