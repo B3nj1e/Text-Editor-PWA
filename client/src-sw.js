@@ -25,7 +25,7 @@ warmStrategyCache({
   strategy: pageCache,
 });
 
-// registerRoute(({ request }) => request.mode === 'navigate', pageCache);
+registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
 
 // self.addEventListener('install', function(event) {
